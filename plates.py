@@ -3,7 +3,7 @@ def main():
     if is_valid(plate):
         print("Valid")
     else:
-        print("Invalid")
+        print("Invalid")       # none counts in falsy 
 
 
 def is_valid(s):
@@ -18,12 +18,12 @@ def is_valid(s):
                     else:
                         pass
                 if len(num)>0 :
-                    if not num.isdigit() or num.startswith('0') :
-                        return False
-                    else :
-                        return True
+                    if not num.isdigit() or num.startswith('0') :  # isalnum() checks if the string contains both digits and letters
+                        return False                               # isdigit() checks if the string contains digits only
+                    else :                                         # isalpha() checks if the string contains letters only
+                        return True                                # earlier didn't mention this statement which resulted in none instead of True 
                 else :
-                    return True
+                    return True                                    # this is for if the string contains only letters 
             else :
                 return False              
         else :
