@@ -21,3 +21,9 @@
       4.Vanity Plates
       5.Nutrition Facts
 
+### WEEK 3:
+      1.Fuel Gauge
+      2.Felipe’s Taqueria
+      3.Grocery List
+      4.Outdated
+
