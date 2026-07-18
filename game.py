@@ -31,3 +31,7 @@ while True :
 
     except ValueError :
         continue
+
+#TypeError= I don't work with this category of thing at all.
+#ValueError= I work with this category fine, but this
+#            particular value doesn't make sense here.
