@@ -9,10 +9,10 @@ while True :
         print('Output:',output)
         break
 
-# Think back to what you found earlier about checking
-#  whether a string starts/ends with something — 
-# that's the tool that would let you add colons only 
+# Think back to what myself found earlier about checking
+#  whether a string starts/ends with something 
+# that's the tool that would let me add colons only 
 # when they're missing, rather than rejecting input 
-# that's missing them. Which behavior do you want to build,
-#  and do you remember the string methods that would 
-# let you check for that?
+# that's missing them. Which behavior i you want to build,
+#  and do i remember the string methods that would 
+# let me check for that?
