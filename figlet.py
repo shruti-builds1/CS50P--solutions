@@ -18,10 +18,13 @@ elif len(sys.argv)==3 :
         print(text2)
 
     else :
-        sys.exit()
+        if sys.argv[1] in ('-f','--font') :
+            sys.exit('Invalid second command-line argument')
+        else :
+            sys.exit('Invalid first command-line argument')
 
 else :
-    sys.exit()
+    sys.exit('Invalid no. of command-line arguments')
 
 
 #  whenever you catch yourself writing \n inside a string 
