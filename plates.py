@@ -3,7 +3,7 @@ def main():
     if is_valid(plate):
         print("Valid")
     else:
-        print("Invalid")       # none counts in falsy 
+        print("Invalid")   # none counts in falsy 
 
 
 def is_valid(s):
@@ -31,4 +31,5 @@ def is_valid(s):
     else :
         return False
         
-main()
+if __name__=='__main__' :
+    main()
