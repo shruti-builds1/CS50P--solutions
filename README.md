@@ -35,3 +35,9 @@
       5.Little Professor
       6.Bitcoin Price Index
 
+### WEEK 5:
+      1.Testing my twttr
+      2.Back to the Bank
+      3.Re-requesting a Vanity Plate
+      4.Refueling
+
