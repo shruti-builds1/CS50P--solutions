@@ -41,3 +41,9 @@
       3.Re-requesting a Vanity Plate
       4.Refueling
 
+### WEEK 6:
+      1.Lines of Code
+      2.Pizza Py
+      3.Scourgify
+      4.CS50 P-Shirt
+
